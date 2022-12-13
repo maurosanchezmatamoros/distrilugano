@@ -6,5 +6,5 @@ export const colors = {
   primaryXDark: '#683B27',
   primaryLight: '#F2C1A6',
   primaryXLight: '#FAE6DB',
-  grey: '#D6D6D6',
+  grey: '#c6c6c6',
 };

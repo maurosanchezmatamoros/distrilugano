@@ -1,11 +1,12 @@
 import { View } from 'react-native';
 import { styles } from './styles';
+import { DistriLugano, Camion } from '../icons/index';
 
 const LogoBar = ({ style }) => {
   return (
     <View style={{ ...styles.container, ...style }}>
-      <View style={styles.distriLugano}></View>
-      <View style={styles.camion}></View>
+      <DistriLugano />
+      <Camion />
     </View>
   );
 };

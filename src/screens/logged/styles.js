@@ -8,11 +8,7 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
   },
   title: {
-    fontFamily: 'PatrickHand',
-    fontSize: 32,
-    color: 'red',
-  },
-  buttonsContainer: {
-    marginVertical: 30,
+    fontSize: 24,
+    marginVertical: 20,
   },
 });
