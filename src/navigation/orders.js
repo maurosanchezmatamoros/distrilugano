@@ -1,10 +1,10 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import { Categories, Products, Detail, Home, Logged } from '../screens/index';
+import { Categories, Detail, Home, Logged, Products } from '../screens/index';
 
 const Stack = createNativeStackNavigator();
 
-const ShopNavigator = () => {
+const OrdersNavigator = () => {
   return (
     <Stack.Navigator initialRouteName="Home">
       <Stack.Screen name="Home" component={Home} options={{ headerShown: false }} />
@@ -16,4 +16,4 @@ const ShopNavigator = () => {
   );
 };
 
-export default ShopNavigator;
+export default OrdersNavigator;

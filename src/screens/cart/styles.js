@@ -6,13 +6,6 @@ export const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: colors.primary,
     alignItems: 'center',
+    justifyContent: 'center',
   },
-  title: {
-    fontSize: 24,
-    marginVertical: 20,
-    marginLeft: 20,
-    alignSelf: 'flex-start',
-    textTransform: 'uppercase',
-  },
-  buttonsContainer: {},
 });

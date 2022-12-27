@@ -10,5 +10,7 @@ export const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     marginVertical: 20,
+    marginLeft: 20,
+    alignSelf: 'flex-start',
   },
 });
