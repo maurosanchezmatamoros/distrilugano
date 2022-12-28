@@ -1,4 +1,4 @@
-import { ActivityIndicator, StyleSheet, View } from 'react-native';
+import { ActivityIndicator, StyleSheet, View, SafeAreaView } from 'react-native';
 
 import { useFonts } from 'expo-font';
 import AppNavigator from './navigation';
@@ -20,7 +20,11 @@ export default function App() {
     );
   }
 
-  return <AppNavigator />;
+  return (
+    <SafeAreaView style={{ flex: 1 }}>
+      <AppNavigator />
+    </SafeAreaView>
+  );
 }
 
 const styles = StyleSheet.create({

@@ -14,5 +14,8 @@ export const styles = StyleSheet.create({
     alignSelf: 'flex-start',
     textTransform: 'uppercase',
   },
-  buttonsContainer: {},
+  buttonsContainer: {
+    alignItems: 'center',
+    flex: 1,
+  },
 });

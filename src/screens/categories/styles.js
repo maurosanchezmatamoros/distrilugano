@@ -13,5 +13,8 @@ export const styles = StyleSheet.create({
     marginLeft: 20,
     alignSelf: 'flex-start',
   },
-  buttonsContainer: {},
+  buttonsContainer: {
+    flex: 1,
+    alignItems: 'center',
+  },
 });
